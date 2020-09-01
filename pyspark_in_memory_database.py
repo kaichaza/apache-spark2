@@ -1,5 +1,9 @@
 # This code runs on any test instance of Databricks using pyspark
-# it's based on queries found in the book: 
+# I tested it on Databricks Runtime 4.0, using Apache Spark 2.4, but it should
+# still run on all the newer releases of Apache Spark since none of the queries
+# are particularly complicated and are all based on spark core functionality
+# -------------------------------------------------------------------------------
+# All the queries are based largely on queries found in the book: 
 #       Bill Chambers & Matei Zaharia , 
 #       Spark: The Definitive Guide: Big Data Processing Made Simple, 
 #       O'Reilly, 2018
